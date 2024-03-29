@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설치 완료 보고서</title>
+    <style>
+        #tb1 th {border-top:3px solid#333; border-bottom:3px solid#333; line-height:40px;}
+        #tb1 td {border-bottom:1px solid#333; line-height:30px; text-align: center;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">DBMS 설치 완료 보고서</h1>
+    <!-- DBMS NAME | DBMS IP ADDRESS | DB Service | PORT Number | Table Space Name | DB Name | User ID | User PW | Role |-->
+    <table border="1" cellspacing="0" style="width:1200px;margin:20px auto" id="tb1">
+        <thead>
+            <tr>
+                <th>DBMS NAME</th>
+                <th>DBMS IP ADDRESS</th>
+                <th>DB Service</th>
+                <th>PORT Number</th>
+                <th>Table Space Name</th>
+                <th>DB Name</th>
+                <th>User ID</th>
+                <th>User PW</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>Oracle 21C</p></td>
+                <td><p>192.168.20.214</p></td>
+                <td><p>OracleServiceXE</p></td>
+                <td><p>1521</p></td>
+                <td>
+                    <p>System</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>c##test123</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>c##sqltest</p>
+                </td>
+                <td><p>xe</p></td>
+                <td>
+                    <p>system</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>c##test123</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>c##sqltest</p>
+                </td>
+                <td>
+                    <p>1234</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>20240325</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>20240326</p>
+                </td>
+                <td>
+                    <p>system</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>user</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>user</p>
+                </td>
+            </tr>
+            <tr>
+                <td><p>MySQL 8.0.26</p></td>
+                <td><p>192.168.20.214</p></td>
+                <td><p>MySQL80</p></td>
+                <td><p>3306</p></td>
+                <td>
+                    <p>root</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>test1</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>test2</p>
+                </td>
+                <td>
+                    <p>kh</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>-</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>-</p>
+                </td>
+                <td>
+                    <p>root</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>test1</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>test2</p>
+                </td>
+                <td>
+                    <p>1234</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>1234</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>1234</p>
+                </td>
+                <td>
+                    <p>system</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>user</p>
+                    <hr style="height: 1px; background-color: #333;">
+                    <p>user</p>
+                </td>
+            </tr>
+            <tr>
+                <td><p>MariaDB 10.5.24</p></td>
+                <td><p>192.168.20.214</p></td>
+                <td><p>MariaDB</p></td>
+                <td><p>3308</p></td>
+                <td><p>root</p></td>
+                <td><p>temp</p></td>
+                <td><p>root</p></td>
+                <td><p>1234</p></td>
+                <td><p>system</p></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+    	<a href="index.jsp">홈으로</a>
+    </div>
+</body>
+</html>
